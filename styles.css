@@ -54,22 +54,47 @@ body {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    padding: 20px 0;
 
 }
 
 h1 {
     font-family: 'Fraunces', serif;
+    margin: 0;
   
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 .price {
+    display: flex;
+    align-items: center;
+    gap: 18px;
     font-family: 'Fraunces', serif;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.discounted-price {
+    font-size: 26px;
+}
+
+.original-price {
+    text-decoration: line-through;
 }
 
 button {
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
 }

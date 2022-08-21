@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -51,5 +53,23 @@ body {
 }
 
 h2 {
-    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+  
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
 }
